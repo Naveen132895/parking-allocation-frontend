@@ -1,0 +1,101 @@
+.heading {
+    color: #fff;
+    background: #5f27cd;
+    text-transform: uppercase;
+    padding: 20px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    margin: 150px 0 0 0;
+}
+ul{
+    display: inline-flex;
+    list-style-type: none;
+}
+ul>li{
+    margin-left: 15px;
+    outline: none;
+}
+
+#myform{
+    position: absolute;
+    margin-left: 40%;
+}
+
+
+p {
+    color: #337AB7;
+}
+
+input {
+    width: 400px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #5f27cd;
+    padding: 6px;
+    margin: 15px 0;
+    color: black;
+    align-items: center;
+    outline: none;
+}
+
+button {
+    width: 130px;
+    height: 40px;
+    background: linear-gradient(to bottom, #5f27cd 0%, #000 100%);
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    border-bottom: 4px solid #000;
+    color: #fbfbfb;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .4);
+    font-size: 15px;
+    text-align: center;
+    text-indent: 5px;
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+button:active {
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, .2);
+    top: 1px;
+}
+
+button:after {
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    border-top: 20px solid #187dbc;
+    border-bottom: 20px solid #187dbc;
+    border-left: 16px solid transparent;
+    border-right: 20px solid #187dbc;
+    position: absolute;
+    opacity: 0.6;
+    right: 0;
+    top: 0;
+    border-radius: 0 5px 5px 0;
+}
+
+#orange {
+    margin-left: 2%;
+}
+
+.login {
+    margin-top:-6%;
+    margin-left: 20%;
+
+}
+.card-body
+{
+margin-left: 40%;
+}
